@@ -3,3 +3,187 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* utilities */
+
+.container {
+	width: 1180px;
+	margin: auto;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.float-left {
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.menu-inline {
+	display: inline-block;
+}
+
+.menu-inline li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* buttons */
+
+.btn {
+	border-radius: 5px;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 14px;
+}
+
+.btn.white {
+	background-color: #fff;
+	color: #fe775a;
+	border: 1px solid #fe775a;
+}
+
+.btn.orange {
+	background-color: #fe775a;
+	color: #fff;
+	border: 1px solid transparent;
+}
+
+.jumbotron .btn.orange {
+	padding: 20px;
+	min-width: 185px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+/* header one */
+
+section.header-one,
+section.header-two {
+	line-height: 80px;
+}
+
+.menu-inline li {
+	margin-right: 20px;
+}
+
+.menu-inline li a {
+	color: #33475b;
+}
+
+.menu-inline li:last-child {
+	margin-right: 0px;
+}
+
+li:first-child .fa-globe-europe {
+	margin-right: 5px;
+	color: #33475b;
+}
+
+.header-one li:first-child .fa-chevron-down {
+	margin-left: 5px;
+	vertical-align: -1px;
+	color: #33475b;
+	margin-right: -5px;
+}
+
+.text-left .menu-inline li:nth-child(2) {
+	border-left: 1px solid #33475b;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.text-right .menu-inline li:first-child .fa-search {
+	color: #1eacc3;
+	font-size: 14px;
+}
+
+.header-one {
+	background: #f4f9fd;
+	border-bottom: 1px solid #33475b;
+}
+
+/* header two */
+
+.header-two div img {
+	vertical-align: middle;
+}
+
+.header-two .fa-chevron-down {
+	margin-left: 15px;
+	vertical-align: -5%;
+}
+
+/* main */
+
+main {
+	margin: auto;
+}
+
+/* jumbotron */
+
+.jumbotron {
+	background: #fff2ee;
+	padding: 60px 0px 185px;
+	background-image: url(../img/jumbotron.png);
+	background-position: 130px 0px;
+	background-repeat: no-repeat;
+	border-bottom: 3px solid #33475b;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.jumbotron p {
+	line-height: 27px;
+	margin-bottom: 30px;
+}
+
+.jumbotron .w-50 div.free {
+	font-size: 13px;
+}
+
+/* band */
+
+.band {
+	background: #afebe4;
+	height: 85px;
+	border-bottom: 3px solid #33475b;
+}
+
+/* power */
+
+.power {
+	background: #fff2ee;
+	border-bottom: 3px solid #33475b;
+}
