@@ -102,7 +102,7 @@ a {
 
 .learn .btn.orange {
 	display: block;
-	width: 180px;
+	width: 155px;
 	height: 60px;
 	line-height: 40px;
 	margin: auto;
@@ -211,7 +211,7 @@ main {
 .power {
 	background: #f4f9fd;
 	text-align: center;
-	padding: 50px 0px 50px;
+	padding: 50px 0px 40px;
 	margin: auto;
 	color: #33475b;
 }
@@ -233,42 +233,45 @@ main {
 
 .learn {
 	background: #f4f9fd;
+	padding: 10px 0px;
 }
 
 .learn .container {
 	background: #fff;
 	padding: 70px 0px 70px;
 	box-shadow: 0 0 10px #d6dfe6;
+	border-radius: 5px;
 }
 
 .learn .more {
 	text-align: center;
 	margin: auto;
+	padding: 0px 70px 0px 120px;
 }
 
 .learn .book {
-	width: 150px;
-	margin-bottom: 30px;
+	width: 140px;
+	margin-bottom: 20px;
 }
 
 .learn .feature {
-	padding: 0px 50px 0px 40px;
+	padding: 0px 50px 0px 30px;
 	color: #33475b;
 }
 
 .learn .feature h3 {
-	font-size: 23px;
-	margin-bottom: 40px;
+	font-size: 24px;
+	margin-bottom: 30px;
 }
 
 .learn .feature .forever {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	line-height: 30px;
 	max-width: 600px;
 }
 
 .learn .feature .popolar {
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 	text-transform: uppercase;
 	font-size: 18px;
 	display: inline-block;
@@ -278,12 +281,98 @@ main {
 .learn .feature .line {
 	display: inline-block;
 	width: 430px;
-	height: 1px;
-	background-color: #33475b;
+	height: 2px;
+	background-color: #899397;
 	vertical-align: 5px;
 }
 
 .learn .feature .menu-inline li .fa-check-circle {
 	margin-right: 15px;
 	color: #fe775a;
+}
+
+/* hub */
+
+.hub {
+	background: #f4f9fd;
+	color: #33475b;
+}
+
+.hub .container {
+	background: #f4f9fd;
+	padding: 40px 0px 45px;
+}
+
+.hub .column {
+	width: 30%;
+	margin-right: 5%;
+	background: #fff;
+	text-align: center;
+	padding: 20px 36px 20px;
+	box-shadow: 0 0 10px #d6dfe6;
+	border-radius: 5px;
+}
+
+.hub .container .column:last-child {
+	margin-right: 0;
+}
+
+.hub .container .column:nth-child(2) {
+	padding: 15px 36px 20px;
+}
+
+.hub .column img {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 25px;
+}
+
+.hub .column img.bag {
+	height: 120px;
+	width: 120px;
+	margin-bottom: 10px;
+}
+
+.hub .column h3 {
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+
+.hub .column p {
+	margin-bottom: 60px;
+	line-height: 30px;
+}
+
+.hub .column .line {
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #899397;
+	margin-bottom: 35px;
+}
+
+.hub .column h4 {
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.hub .column .characteristics {
+	text-align: left;
+}
+
+.hub .column .characteristics:last-of-type {
+	margin-bottom: 50px;
+}
+
+.hub .column .characteristics .fas {
+	margin-right: 15px;
+	color: #fe775a;
+}
+
+.hub .column .btn {
+	min-width: 155px;
+	display: inline-block;
+	padding: 20px 40px;
 }
