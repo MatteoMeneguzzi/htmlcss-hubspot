@@ -69,6 +69,9 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	font-size: 32px;
+}
 /* buttons */
 
 .btn {
@@ -300,7 +303,7 @@ main {
 
 .hub .container {
 	background: #f4f9fd;
-	padding: 40px 0px 45px;
+	padding: 40px 0px 50px;
 }
 
 .hub .column {
@@ -375,4 +378,78 @@ main {
 	min-width: 155px;
 	display: inline-block;
 	padding: 20px 40px;
+}
+
+/* green */
+
+.green {
+	background: rgb(63, 166, 187);
+	background: linear-gradient(
+		36deg,
+		rgba(63, 166, 187, 1) 0%,
+		rgba(65, 188, 165, 1) 100%
+	);
+	color: #fff;
+	text-align: center;
+}
+
+.green .container {
+	padding: 60px 0 100px;
+}
+
+.green h2 {
+	margin-bottom: 45px;
+}
+
+.green p {
+	line-height: 30px;
+	margin-bottom: 60px;
+}
+
+.cell {
+	width: 25%;
+	padding: 25px 0px 25px;
+}
+
+.row.one .cell {
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.row.one .cell:last-of-type {
+	border-right: 0px;
+}
+
+.row.two .cell {
+	border-right: 1px solid white;
+}
+
+.row.two .cell:last-of-type {
+	border-right: 0px;
+}
+
+.row.two .cell:last-of-type img {
+	margin-top: 10px;
+}
+
+.cell img {
+	margin-bottom: 25px;
+}
+
+.cell h2 {
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 37px;
+	margin-bottom: 20px;
+}
+
+.cell .plus {
+	display: inline-block;
+	vertical-align: 7px;
+	font-size: 23px;
+}
+
+.cell .desc {
+	font-size: 12px;
+	margin-bottom: 0px;
 }
