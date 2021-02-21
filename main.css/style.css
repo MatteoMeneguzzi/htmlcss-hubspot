@@ -6,6 +6,7 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
+	color: #33475b;
 }
 
 /* utilities */
@@ -33,6 +34,10 @@ body {
 
 .w-50 {
 	width: 50%;
+}
+
+.w-60 {
+	width: 60%;
 }
 
 .w-70 {
@@ -406,33 +411,33 @@ main {
 	margin-bottom: 60px;
 }
 
-.cell {
+.green .cell {
 	width: 25%;
 	padding: 25px 0px 25px;
 }
 
-.row.one .cell {
+.green .row.one .cell {
 	border-bottom: 1px solid white;
 	border-right: 1px solid white;
 }
 
-.row.one .cell:last-of-type {
+.green .row.one .cell:last-of-type {
 	border-right: 0px;
 }
 
-.row.two .cell {
+.green .row.two .cell {
 	border-right: 1px solid white;
 }
 
-.row.two .cell:last-of-type {
+.green .row.two .cell:last-of-type {
 	border-right: 0px;
 }
 
-.row.two .cell:last-of-type img {
+.green .row.two .cell:last-of-type img {
 	margin-top: 10px;
 }
 
-.cell img {
+.green .cell img {
 	margin-bottom: 25px;
 }
 
@@ -452,4 +457,90 @@ main {
 .cell .desc {
 	font-size: 12px;
 	margin-bottom: 0px;
+}
+
+/* brands */
+
+.brands .container {
+	width: 1000px;
+	padding: 60px 0px 0px 0px;
+}
+
+.brands .countries {
+}
+
+.brands .countries .number {
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+
+.brands .countries p {
+	max-width: 180px;
+	line-height: 25px;
+}
+
+.brands .logos {
+	padding: 12px 0px 0px 0px;
+}
+
+.brands .logos .cell {
+	width: 24%;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: ;
+}
+
+.brands .row.one .cell img,
+.brands .row.two .cell img {
+	width: 130px;
+}
+
+.brands .row.one {
+	margin-bottom: 5px;
+}
+
+.brands .row.two .cell:nth-child(1) img {
+	width: 110px;
+}
+
+.brands .row.two .cell:nth-child(3) {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.brands .row.two .cell:nth-child(4) {
+	padding-left: 5px;
+	text-align: left;
+	vertical-align: -20px;
+}
+
+.brands .row.two .cell:nth-child(3) img {
+	width: 100px;
+}
+
+.brands .row.two .cell:nth-child(4) img {
+	width: 140px;
+}
+
+.brands .row.one ul li {
+	vertical-align: middle;
+}
+
+.brands .row.two .cell {
+	border-right: 1px solid white;
+}
+
+.brands .row.two .cell:last-of-type {
+	border-right: 0px;
+}
+
+.brands .row.two .cell:last-of-type img {
+	margin-top: 10px;
+}
+
+.brands .cell img {
+	margin-bottom: 25px;
 }
