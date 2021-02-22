@@ -7,6 +7,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	color: #33475b;
+	min-width: 1400px;
 }
 
 /* utilities */
@@ -201,7 +202,7 @@ main {
 	background: #fff2ee;
 	padding: 60px 0px 185px;
 	background-image: url(../img/jumbotron.png);
-	background-position: 300px 0px;
+	background-position: 100% 0%;
 	background-repeat: no-repeat;
 	border-bottom: 3px solid #33475b;
 	color: #33475b;
@@ -477,7 +478,7 @@ main {
 /* brands */
 
 .brands .container {
-	width: 1000px;
+	width: 1020px;
 	padding: 50px 0px 0px 0px;
 }
 
@@ -497,63 +498,43 @@ main {
 
 .brands .logos .cell {
 	width: 24%;
-	border-bottom: 1px solid white;
-	border-right: 1px solid white;
-	vertical-align: middle;
 	display: inline-block;
+	text-align: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.brands .row.one .cell:first-child {
+	padding: 0px 25px 0px 0px;
+}
+
+.brands .row.two .cell:first-child {
 	text-align: center;
+	padding: 0px 30px 0px 10px;
+}
+
+.brands .row.one .cell:nth-child(2) {
+	text-align: center;
+	padding: 0px 20px 0px 0px;
+}
+
+.brands .row.two .cell:nth-child(4) {
+	padding: 0px 10px 0px 0px;
 }
 
 .brands .row.one .cell img,
 .brands .row.two .cell img {
-	width: 130px;
-}
-
-.brands .row.one {
-	margin-bottom: 5px;
-}
-
-.brands .row.two .cell:nth-child(1) img {
-	width: 112px;
-}
-
-.brands .row.two .cell:nth-child(3) {
-	padding-left: 7px;
-	text-align: left;
-}
-
-.brands .row.two .cell:nth-child(4) {
-	padding-left: 7px;
-	text-align: left;
-	vertical-align: -20px;
-}
-
-.brands .row.two .cell:nth-child(3) img {
-	width: 100px;
-}
-
-.brands .row.two .cell:nth-child(4) img {
-	width: 140px;
-}
-
-.brands .row.one ul li {
 	vertical-align: middle;
+	max-width: 100%;
+	max-height: 40px;
 }
 
-.brands .row.two .cell {
-	border-right: 1px solid white;
-}
-
-.brands .row.two .cell:last-of-type {
-	border-right: 0px;
-}
-
-.brands .row.two .cell:last-of-type img {
-	margin-top: 10px;
+.brands .row.one .cell:first-child img,
+.brands .row.two .cell:first-child img {
+	max-width: 105%;
 }
 
 .brands .cell img {
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
 
 /* start */
