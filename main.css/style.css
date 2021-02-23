@@ -179,6 +179,61 @@ li:first-child .fa-globe-europe {
 	border-bottom: 1px solid #33475b;
 }
 
+/* hover */
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a:hover {
+	color: #37a48d;
+}
+
+.dropdown-content a:nth-child(odd) {
+	background: #f4f9fd;
+}
+
+li a:hover,
+.languages .container li a:hover,
+.copy .w-50 .menu-inline li a:hover {
+	color: #37a48d;
+}
+
+.dropdown-content a {
+	color: #33475b;
+	padding: 0px 16px;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	margin-top: 0;
+}
+
+/* header one hover */
+
+.header-one .text-left .menu-inline li:first-child a:hover,
+.header-one .text-left .menu-inline li:first-child a:hover .fa-globe-europe {
+	color: #37a48d;
+}
+
+.header-one .text-left .menu-inline li:first-child:hover .dropdown-content {
+	display: block;
+	position: absolute;
+	top: 60px;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 10;
+}
+
 /* header two */
 
 .header-two div img {
@@ -188,6 +243,32 @@ li:first-child .fa-globe-europe {
 .header-two .fa-chevron-down {
 	margin-left: 15px;
 	vertical-align: -5%;
+}
+
+/* header two hover */
+
+.header-two .text-right .menu-inline li:hover .dropdown-content {
+	display: block;
+	position: absolute;
+	top: 140px;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 10;
+	text-align: left;
+}
+
+.header-two .text-right .menu-inline .dropdown-content a {
+	color: #33475b;
+	padding: 0px 16px;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	margin-top: 0;
+}
+
+.header-two .text-right .menu-inline .dropdown-content a:hover {
+	color: #37a48d;
 }
 
 /* main */
@@ -658,4 +739,29 @@ main {
 
 .copy .copyright {
 	color: white;
+}
+
+/* chat */
+
+.chat {
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	background-color: #33475b;
+	padding: 20px 10px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.3);
+	width: 75px;
+	height: 75px;
+	z-index: 10;
+}
+
+.chat .fa-comment-alt {
+	color: white;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	font-size: 30px;
 }
